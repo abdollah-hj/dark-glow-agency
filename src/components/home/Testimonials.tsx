@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: 'Emily Rodriguez',
     position: 'Founder, DesignHub',
-    content: 'The level of creativity and technical expertise this team brings is unmatched. They've become an invaluable partner to our business.',
+    content: 'The level of creativity and technical expertise this team brings is unmatched. They\'ve become an invaluable partner to our business.',
     rating: 5
   }
 ];
