@@ -86,7 +86,7 @@
   }
   
   .neon-glow::after {
-    @apply absolute inset-0 opacity-0 transition-opacity duration-300 rounded-inherit;
+    @apply absolute inset-0 opacity-0 transition-opacity duration-300 rounded-2xl;
     content: '';
     z-index: -1;
   }
@@ -128,7 +128,7 @@
   }
   
   .neon-border::after {
-    @apply absolute inset-0 rounded-[inherit] opacity-0 transition-opacity duration-300;
+    @apply absolute inset-0 rounded-2xl opacity-0 transition-opacity duration-300;
     content: '';
     z-index: -1;
   }

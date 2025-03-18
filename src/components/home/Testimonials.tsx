@@ -34,7 +34,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our <span className="neon-text-purple">Clients</span> Say</h2>
           <p className="max-w-2xl mx-auto text-muted-foreground">
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+            Don&apos;t just take our word for it. Here&apos;s what our clients have to say about working with us.
           </p>
         </div>
         
@@ -47,7 +47,7 @@ const Testimonials = () => {
                     <Star key={i} size={16} className="fill-neon-blue text-neon-blue" />
                   ))}
                 </div>
-                <p className="mb-6 text-muted-foreground">"{testimonial.content}"</p>
+                <p className="mb-6 text-muted-foreground">&quot;{testimonial.content}&quot;</p>
               </div>
               <div>
                 <p className="font-medium">{testimonial.name}</p>
